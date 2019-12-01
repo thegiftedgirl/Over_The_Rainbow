@@ -3,7 +3,7 @@
 
 //input pieces of data that are constant
 
-const URL_ENDPOINT="https://images-api.nasa.gov/search?q={q}"
+const URL_ENDPOINT="https://images-api.nasa.gov/search?q={q}api_key=eS3Ga2uKrrsAaXEbuFmfuewbDskcR1Q6nliWC6Kt"
 
 
 //the data that can change
@@ -33,17 +33,17 @@ $('#controls').on('click', 'button', handleClick);
 
 
 function handleClick(){
-    //breed = this.dataset.id;
-    //input = $("input[type='text']");
+  
      getAPIData(); 
      alert($(this).val());  
 }
 
 function getAPIData(){
     const response = $.ajax({
-        url: "https://images-api.nasa.gov/search?q={q}"
+        url: "https://images-api.nasa.gov/search?q={q}api_key=eS3Ga2uKrrsAaXEbuFmfuewbDskcR1Q6nliWC6Kt"
     });
     response.then(function(data){
         console.log(data);
+        console.log(response);
     });
-}
+} 
