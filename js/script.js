@@ -52,10 +52,11 @@ function getAPIData(){
 }
 
 function generateImageUI() {
-    const firstFive = images.splice(0, 5);
+    const firstFive = images.splice(0, 1);
     return firstFive.map(function(element){
-        return `<img src="${element.links[0].href}" alt="${element.data[0].description}">`
+        return `<img src="${element.links[0].href}"> <div>"${element.data[0].description}"</div>`
     }).join("");
+    
 }
 
 function render() {

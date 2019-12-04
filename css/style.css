@@ -1,11 +1,28 @@
 *{
-    background-color: blueviolet;
+    background-color: rgb(0, 0, 0);
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
- 
+    color: orangered;
+ }
 
+ h1{color: rgb(235, 10, 133); 
+    font-family: 'Megrim', cursive;
+    font-size: 165px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    line-height: 200px;
+    text-align:center;
+    text-shadow:  4px 4px 4px red, 2px 2px 2px yellow, 5px 5px 5px purple, 7px 7px 7px blue, 8px 8px 8px green, 9px 9px 9px white;
+ }
 
+input{
+    text-align:center;
+    color: orange
 
 }
 
+.more-images-btn{
+    color: yellow;
+}
