@@ -59,10 +59,10 @@ function generateImageUI() {
     
 }
 
-function render() {
-    if(images.length === 0) return;
-    const imageHtml = generateImageUI();
-    $imageListElement.append(imageHtml);
+// function render() {
+//     if(images.length === 0) return;
+//     const imageHtml = generateImageUI();
+//     $imageListElement.append(imageHtml);
 
 
 
