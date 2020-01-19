@@ -18,4 +18,4 @@ AAU- return output of images
 Future modifications:
 Would like to implement a cleaner Userface. 
 Would like to implement a delete function.
-Would like to be create more data capabilities for the user to access. 
+Would like to create more data capabilities for the user to access. 
