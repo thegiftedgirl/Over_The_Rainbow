@@ -12,9 +12,7 @@ AAU- search for planets
 AAU- return output of images
 ************************
 
-
-(https://user-images.githubusercontent.com/56314121/72689366-b316fb80-3ade-11ea-8580-362d6055e00d.png)
-
+![Screen Shot 2020-01-19 at 2 19 50 PM](https://user-images.githubusercontent.com/56314121/72689743-b1e7cd80-3ae2-11ea-9652-d2ff49c1dcd2.png)
 
 
 Future modifications:
